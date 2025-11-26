@@ -6,7 +6,6 @@ pipeline {
     }
 
     stages {
-
         stage('Checkout') {
             steps {
                 git url: 'https://github.com/KaushalrajPuwar/todo-cli-jenkins.git', branch: 'main'

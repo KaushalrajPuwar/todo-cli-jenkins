@@ -1,0 +1,5 @@
+todo-cli/target/
+.venv/
+*.log
+.DS_Store
+.vscode
